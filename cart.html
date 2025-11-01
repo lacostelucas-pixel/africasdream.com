@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>African Dream | Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/photo_2025-09-24_12-28-38.jpg">
+      </a>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="categories.html">Categories</a>
+      <a href="blog.html">Blog</a>
+      <a href="artisan.html">Artisan</a>
+    </nav>
+    <div class="header-icons">
+      <a href="cart.html">Cart 🛒 (<span id="cart-count">0</span>)</a>
+        
+    </div>
+  </header>
+
+  <!-- Cart Section -->
+  <main class="cart-page">
+    <h1>Your Shopping Cart</h1>
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Total</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="cart-page-items">
+        <!-- Items will be loaded here -->
+      </tbody>
+    </table>
+
+    <div class="cart-summary">
+      <h2>Cart Summary</h2>
+      <p><strong>Total:</strong> $<span id="cart-page-total">0</span></p>
+      <button class="btn buy">Proceed to Checkout</button>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer-bottom">© 2025 African Dream. All rights reserved.</p>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>
